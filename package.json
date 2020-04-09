@@ -1,0 +1,26 @@
+{
+  "name": "node-team-generator",
+  "version": "1.0.0",
+  "description": "Command line application that generates software engineering team information pages based on user input.",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose test/*",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gveetil/Node-Team-Generator.git"
+  },
+  "author": "gveetil",
+  "homepage": "https://github.com/Gveetil/Node-Team-Generator#readme",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
