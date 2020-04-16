@@ -9,7 +9,7 @@ This command-line Node.js application dynamically generates an Information page 
 
 ## Sample Output File
 
-Team Information Sample : [sample_output/team.html](sample_output/team.html) <br><br>
+Team Information Sample : [team.html](https://gveetil.github.io/Node-Team-Generator/sample_output/team.html) <br><br>
 
 ## Table of Contents 
 
