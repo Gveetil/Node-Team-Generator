@@ -1,0 +1,72 @@
+body{
+    background-color: white;
+}
+
+.team-heading{
+    /* background-color: darkolivegreen;
+    color: white; */
+    background-color: darkslategray;
+    color: white;
+}
+
+.card-header{
+    background-color:rgb(50, 140, 224); 
+    color: white;
+    border-top-right-radius: 0px;
+}
+
+.card-header:first-child {
+    border-top-right-radius: 0rem;
+}
+
+.list-group-item{
+    font-weight: 600;
+}
+.list-group{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.employee-card{
+    border: 1px #616161;
+    background-color: rgb(237, 237, 238);
+    box-shadow: 8px 8px 10px #626263; 
+    width: 25rem;
+    max-width: 30rem;
+    margin: 1rem;
+}
+
+.employee-details{
+    font-weight: 500;
+    font-size: small;
+    line-height: 1em;
+}
+
+.manager-details{
+    font-weight: 500;
+    font-size: normal;
+    line-height: 1em;
+}
+
+.circle-icon {
+    background: white;
+    color: rgb(50, 140, 224);
+    padding:10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.bg-manager{
+    background: gainsboro;
+}
+
+.container{
+    width: 80%;
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: auto;
+    }
+  }
